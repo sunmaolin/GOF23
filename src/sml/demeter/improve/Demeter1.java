@@ -81,6 +81,7 @@ class SchoolManager {
         //分析问题
         //1.将输出学院的员工方法，封装到CollegeManager
         //降低类之间的耦合度，除了对外提供给public方法，不对外泄露任何信息
+        //也就是对依赖的类直到的尽可能少，我不关心你是怎么输出的，只需要你给我提供public方法
         sub.printEmployee();
         List<Employee> list2 = this.getAllEmployee();
         System.out.println("----------学校总部员工-----------");
