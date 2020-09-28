@@ -6,8 +6,8 @@ public class Ocp {
         //如果新增一一个三角形，修改的代码比较多
         //同时违反了ocp开闭原则，即对扩展开放（提供方），对修改关闭（使用方）
         GraphicEditor graphicEditor = new GraphicEditor();
-        graphicEditor.drawCircle(new Circle());
-        graphicEditor.drawRectangle(new Rectangle());
+        graphicEditor.drawShape(new Circle());
+        graphicEditor.drawShape(new Rectangle());
     }
 }
 
