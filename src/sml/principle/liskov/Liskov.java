@@ -1,4 +1,4 @@
-package sml.liskov;
+package sml.principle.liskov;
 
 public class Liskov {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package sml.segregation;
+package sml.principle.segregation;
 
 /**
  * 类B与D并不需要使用所有接口的方法，但是必须要实现方法。违反了接口隔离原则

@@ -1,4 +1,4 @@
-package sml.ocp;
+package sml.principle.ocp;
 
 public class Ocp {
     public static void main(String[] args) {

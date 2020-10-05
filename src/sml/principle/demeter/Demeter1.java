@@ -1,4 +1,4 @@
-package sml.demeter;
+package sml.principle.demeter;
 
 import java.util.ArrayList;
 import java.util.List;

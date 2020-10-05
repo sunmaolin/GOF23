@@ -1,4 +1,4 @@
-package sml.liskov.improve;
+package sml.principle.liskov.improve;
 
 public class Liskov {
     public static void main(String[] args) {

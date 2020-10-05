@@ -1,4 +1,4 @@
-package sml.singleResponsibility;
+package sml.principle.singleResponsibility;
 
 public class SingleResponsibility2 {
     public static void main(String[] args) {

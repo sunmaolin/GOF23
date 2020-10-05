@@ -1,4 +1,4 @@
-package sml.segregation.improve;
+package sml.principle.segregation.improve;
 
 public class Segregation1 {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package sml.inversion;
+package sml.principle.inversion;
 
 public class DependecyInversion {
     public static void main(String[] args) {
