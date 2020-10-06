@@ -29,4 +29,14 @@ class Singleton {
         }
         return instance;
     }
+
+    //有的人想要解决效率问题，将其放到同步代码块中去new，但是又暴露出线程安全问题，不可取
+//    public static Singleton getInstance(){
+//        if(instance == null){
+//            synchronized (Singleton.class) {
+//                instance = new Singleton();
+//            }
+//        }
+//        return instance;
+//    }
 }
